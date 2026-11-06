@@ -12,10 +12,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.cardiovitals.pro"
+      "bundleIdentifier": "com.fajostech.cardiovitals"
     },
     "android": {
-      "package": "com.cardiovitals.pro",
+      "package": "com.fajostech.cardiovitals",
       "adaptiveIcon": {
         "backgroundColor": "#e11d48",
         "foregroundImage": "./assets/android-icon-foreground.png"
@@ -24,6 +24,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset"
+    ]
   }
 }
