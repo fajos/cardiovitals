@@ -1,20 +1,24 @@
 {
   "expo": {
-    "name": "blood-pressure_expo",
-    "slug": "blood-pressure_expo",
+    "name": "CardioVitals Pro",
+    "slug": "cardiovitals-pro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#e11d48",
+      "resizeMode": "contain"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cardiovitals.pro"
     },
     "android": {
+      "package": "com.cardiovitals.pro",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#e11d48",
+        "foregroundImage": "./assets/android-icon-foreground.png"
       },
       "predictiveBackGestureEnabled": false
     },
